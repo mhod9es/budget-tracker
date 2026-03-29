@@ -146,5 +146,6 @@ http://127.0.0.1:5000
 
 ## Author
 Micah Hodges
+
 Created for FGCU Eaglehacks 2026
 
