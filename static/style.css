@@ -1,0 +1,254 @@
+/* Base page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Flash messages */
+.flash-container {
+    margin-bottom: 20px;
+}
+
+.flash-message {
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.flash-message.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.flash-message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Summary cards */
+.summary {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.income-card {
+    background: #28a745;
+}
+
+.expense-card {
+    background: #dc3545;
+}
+
+.balance-card {
+    background: #007bff;
+}
+
+/* Sections */
+.form-section,
+.table-section,
+.chart-section {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Form layout */
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+input,
+select {
+    border: 1px solid #ccc;
+}
+
+button {
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Delete button */
+.delete-btn {
+    background: #dc3545;
+    padding: 8px 12px;
+}
+
+/* Table styling */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background: #f1f1f1;
+}
+
+/* Row colors */
+.income-row {
+    background-color: #f3fff6;
+}
+
+.expense-row {
+    background-color: #fff5f5;
+}
+
+/* Type badges */
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.badge-income {
+    background: #d4edda;
+    color: #155724;
+}
+
+.badge-expense {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Action area */
+.action-cell {
+    white-space: nowrap;
+}
+
+.inline-form {
+    display: inline;
+}
+
+.edit-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.edit-link:hover {
+    text-decoration: underline;
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    padding: 30px 20px;
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    background: #fafafa;
+}
+
+.empty-state h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    margin: 0;
+    color: #666;
+}
+
+/* Chart area */
+.chart-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.empty-chart-message {
+    text-align: center;
+    color: #666;
+}
+
+/* Edit page actions */
+.edit-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cancel-link {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+
+.cancel-link:hover {
+    text-decoration: underline;
+}
